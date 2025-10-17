@@ -1,0 +1,78 @@
+# Core Django and API
+Django==5.2.5
+djangorestframework==3.16.1
+django-cors-headers==4.7.0
+django-filter==25.1
+
+# Database (for production, consider PostgreSQL)
+# psycopg2-binary==2.9.9  # Uncomment for PostgreSQL
+
+# PDF Processing
+camelot-py==1.0.0
+pdfminer.six==20250506
+pdf2image==1.17.0
+
+# Data Processing
+pandas==2.3.1
+numpy==2.2.6
+openpyxl==3.1.5
+
+# Image Processing (for PDF parsing)
+opencv-python-headless==4.12.0.88
+
+# Task Queue (optional - for background processing)
+celery==5.5.3
+kombu==5.5.4
+amqp==5.3.1
+billiard==4.2.1
+
+# Security
+cryptography==45.0.6
+
+# CLI and utilities
+click==8.2.1
+click-didyoumean==0.3.1
+click-plugins==1.1.1
+click-repl==0.3.0
+colorama==0.4.6
+
+# Parsing and detection
+chardet==5.2.0
+charset-normalizer==3.4.3
+
+# System utilities
+distro==1.9.0
+packaging==25.0
+
+# Documentation
+markdown-it-py==3.0.0
+mdurl==0.1.2
+
+# Excel support
+et_xmlfile==2.0.0
+
+# PDF dependencies
+cffi==1.17.1
+pycparser==2.22
+Pillow==11.3.5
+
+# Core Python web
+asgiref==3.9.1
+sqlparse==0.5.4
+tzdata==2025.1
+
+# Date/time utilities
+python-dateutil==2.9.0.post0
+pytz==2025.1
+six==1.17.1
+
+# Text processing
+tabula-py==2.10.1
+PyPDF2==3.0.1
+
+# Statistical analysis
+scipy==1.15.4
+
+# For production deployment
+gunicorn==23.1.0  # WSGI server for production
+whitenoise==6.8.2  # Static file serving
